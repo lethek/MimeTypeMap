@@ -6,8 +6,8 @@
 		<title>Media Type Map</title>
 		<authors>$author$</authors>
 		<description>$description$</description>
-		<projectUrl>https://github.com/samuelneff/MimeTypeMap</projectUrl>
-		<licenseUrl>https://github.com/samuelneff/MimeTypeMap/blob/master/LICENSE</licenseUrl>
+		<projectUrl>https://github.com/lethek/MimeTypeMap</projectUrl>
+		<licenseUrl>https://github.com/lethek/MimeTypeMap/blob/master/LICENSE</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<tags>C# ASP.NET</tags>
 	</metadata>

@@ -631,9 +631,9 @@ namespace MimeTypes
 		private static readonly Lazy<IDictionary<string, string>> _extensions =
 			new Lazy<IDictionary<string, string>>(() => {
 				var extensions = new Dictionary<string, string>(StringComparer.InvariantCultureIgnoreCase) {
+					#region List of MIME types that map to an extension used by another MIME type
 					// Some MIME types can map to multiple extensions, so to get a deterministic mapping,
 					//  add those to the dictionary specifcially
-					#region List of MIME types that map to an extension used by another MIME type
 					{"application/fsharp-script", ".fsx"},
 					{"application/msaccess", ".adp"},
 					{"application/msword", ".doc"},
